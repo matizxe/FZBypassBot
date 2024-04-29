@@ -235,9 +235,6 @@ async def transcript(url: str, DOMAIN: str, ref: str, sltime) -> str:
                       raise DDLException("Link Extraction Failed")
 
 async def shareus(url: str) -> str:
-    """
-    Restricted Use !
-    """
     DOMAIN = f"https://api.shrslink.xyz"
     code = url.split('/')[-1]
     headers = {
