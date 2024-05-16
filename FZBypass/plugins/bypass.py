@@ -24,7 +24,7 @@ async def start_msg(client, message):
     
     <i><b>Bot Started {convert_time(time() - BOT_START)} ago...</b></i>
 
-🛃 <b>Use Me Here :</b> @Link_Bypass <i>(Bypass Topic)</i>""",
+🛃 <b>My Update Channel :</b> @Matiz_Techz <i>(Matiz Techz)</i>""",
         quote=True,
         reply_markup=InlineKeyboardMarkup(
             [
