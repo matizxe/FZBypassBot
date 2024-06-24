@@ -387,6 +387,10 @@ async def direct_link_checker(link, onlylink=False):
         blink = await surl(link)
     elif bool(match(r"https?:\/\/thinfi\.\S+", link)):
         blink = await thinfi(link)
+    elif bool(match(r"https?:\/\/justpaste\.\S+", link)):
+        blink = await justpaste(link)
+    elif bool(match(r"https?:\/\/linksxyz\.\S+", link)):
+        blink = await linksxyz(link)
 
     # DL Sites
     elif bool(match(r"https?:\/\/cinevood\.\S+", link)):
